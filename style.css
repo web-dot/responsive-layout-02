@@ -32,7 +32,7 @@
 }
 .contenthead{
   height: 50px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 20px;
 }
 .contenthead h1{
@@ -44,7 +44,7 @@
   justify-content: space-around;
   align-items: flex-start;
   height: 800PX;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .subcontent{
   /* background-color: #404040; */
@@ -55,7 +55,7 @@
   justify-content: center;
   align-items: flex-start;
   margin-top: 10px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .subcontent h3{
   font-size: 25px;
@@ -72,7 +72,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .resource{
   background-color:#595959 ;
