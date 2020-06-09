@@ -1,6 +1,5 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@1,100&display=swap');
 
 *{
   margin: 0;
@@ -12,12 +11,35 @@
 }
 .searchbox input{
   border: none;
-  height: 30px;
-  width: 300px;
+  height: 50px;
+  width: 500px;
+}
+.searchbox{
+  /* border: 1px solid red; */
+  width: 600px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15px;
+  margin: 0 auto;
+}
+.signintab{
+  /* border: 1px solid red; */
+  float: right;
+  margin-right: 250px;
+  position: relative;
+  bottom: 29px;
+  right: 100px;
+}
+.signintab a{
+  font-size: 20px;
+  color: #8C8C8C;
+  text-decoration: none;
 }
 .section{
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -44,9 +66,9 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(92, 181, 255);
-  width: 200px;
-  height: 30px;
-  margin-top: 40px;
+  width: 400px;
+  height: 50px;
+  margin-top: 70px;
 }
 .getlisting a{
   text-decoration: none;
