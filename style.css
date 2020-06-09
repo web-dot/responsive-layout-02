@@ -21,21 +21,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 15px;
-  margin: 0 auto;
 }
 .signintab{
   /* border: 1px solid red; */
-  float: right;
-  margin-right: 250px;
-  position: relative;
-  bottom: 29px;
-  right: 100px;
+ display: flex;
+ width: 400px;
+ justify-content: flex-start;
+ align-items: center;
 }
 .signintab a{
   font-size: 20px;
-  color: #8C8C8C;
+  color: #404040;
   text-decoration: none;
 }
 .section{
@@ -46,6 +42,9 @@
 .menubar{
   background-color: #D9D9D9;
   height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   /* border: 1px solid red; */
 }
 .header{
@@ -210,8 +209,8 @@
 }
 .footnav{
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .navlist a{
   text-decoration: none;
